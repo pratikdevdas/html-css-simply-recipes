@@ -260,3 +260,24 @@ Navbar
 ===============
 */
 
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: blue; */
+}
+
+.nav-center{
+  width: 90vw;
+  /* 90% of screeen witdth */
+  max-width: var(--max-width);
+  /* using css global variable */
+  /* background: red; */
+}
+
+.nav-header{
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+}
+
